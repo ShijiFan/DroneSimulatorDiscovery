@@ -1,0 +1,83 @@
+{
+ "closed_sim_auroc": 0.9978443125,
+ "segment": {
+  "drone_median_logit": 3.8842029571533203,
+  "gull": {
+   "auroc": 0.9039775126138637,
+   "fa_thr0": 0.03573384446878423,
+   "n_neg": 7304
+  },
+  "human": {
+   "auroc": 0.9323192671256247,
+   "fa_thr0": 0.02687458526874585,
+   "n_neg": 6028
+  },
+  "heron": {
+   "auroc": 0.8371600916295244,
+   "fa_thr0": 0.16020671834625322,
+   "n_neg": 387
+  },
+  "CR": {
+   "auroc": 0.9984964842798181,
+   "fa_thr0": 0.0,
+   "n_neg": 3280
+  },
+  "open_auroc_mean": 0.8911522904563376,
+  "detect_thr0": {
+   "D1": 0.3999422048836873,
+   "D2": 0.6785975928833071,
+   "D3": 0.5990990990990991,
+   "D4": 0.9217819514429684,
+   "D5": 0.93260563962623,
+   "D6": 0.8169690501600854
+  }
+ },
+ "track20": {
+  "drone_median_logit": 4.292031288146973,
+  "gull": {
+   "auroc": 0.9576620633859507,
+   "fa_thr0": 0.0,
+   "n_neg": 342
+  },
+  "human": {
+   "auroc": 0.9739993598129542,
+   "fa_thr0": 0.0,
+   "n_neg": 296
+  },
+  "heron": {
+   "auroc": 0.8912178671674643,
+   "fa_thr0": 0.0,
+   "n_neg": 17
+  },
+  "CR": {
+   "auroc": 0.9995220882723155,
+   "fa_thr0": 0.0,
+   "n_neg": 153
+  },
+  "open_auroc_mean": 0.9409597634554564,
+  "detect_thr0": {
+   "D1": 0.30994152046783624,
+   "D2": 0.75,
+   "D3": 0.5787401574803149,
+   "D4": 0.9631336405529954,
+   "D5": 0.9767827529021559,
+   "D6": 0.9620938628158845
+  }
+ },
+ "args": {
+  "arm": "S4_tap5",
+  "bank": "E:\\research\\openset_physics\\runs\\W14_banks\\b\\bank_S4.npz",
+  "seed": 33,
+  "steps": 4000,
+  "bs": 256
+ },
+ "train_s": 665,
+ "bank_sha256": "47c6e9fae31b3f6b3f20cb157a9cf73eb884ef32741103f035cdce2f25cb7ad7",
+ "script_sha256": {
+  "w14_train.py": "bf6e4605ce65423aca8f4afb03edc3d67f073eb7582458661d1e51401b4b9e85",
+  "e3w8b_ablate.py": "6d247b8024df4b353eadc1e58373a1eaade993df1168ec4468df8eac367ae91d",
+  "e3w8_sim_rotor_detector.py": "c61be5360f39f45a32b96d6053ceb286e5c676c51101121e8658f18e7e0575dd",
+  "sim_saab.py": "5cbb778f7d3fd2d8e5b0a4e4a9418319b06aa7e98b81ca1df75494a176dd3683",
+  "train_e0b.py": "557c6a6257d294bcc073befc5fc184edfc97554059a71ef7e0efe4dbe12afe8a"
+ }
+}

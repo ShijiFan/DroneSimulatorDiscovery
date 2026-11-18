@@ -1,0 +1,83 @@
+{
+ "closed_sim_auroc": 0.9951096875000001,
+ "segment": {
+  "drone_median_logit": 2.862170457839966,
+  "gull": {
+   "auroc": 0.8392121338631582,
+   "fa_thr0": 0.18688389923329682,
+   "n_neg": 7304
+  },
+  "human": {
+   "auroc": 0.7744395226528742,
+   "fa_thr0": 0.35235567352355673,
+   "n_neg": 6028
+  },
+  "heron": {
+   "auroc": 0.7341732310612812,
+   "fa_thr0": 0.4134366925064599,
+   "n_neg": 387
+  },
+  "CR": {
+   "auroc": 0.9988475944952276,
+   "fa_thr0": 0.0,
+   "n_neg": 3280
+  },
+  "open_auroc_mean": 0.7826082958591045,
+  "detect_thr0": {
+   "D1": 0.576506285218899,
+   "D2": 0.6510727367870225,
+   "D3": 0.6254406580493537,
+   "D4": 0.8628034814475493,
+   "D5": 0.8987844207392707,
+   "D6": 0.702330131625756
+  }
+ },
+ "track20": {
+  "drone_median_logit": 2.5167694091796875,
+  "gull": {
+   "auroc": 0.9311696107186378,
+   "fa_thr0": 0.029239766081871343,
+   "n_neg": 342
+  },
+  "human": {
+   "auroc": 0.8632435215854372,
+   "fa_thr0": 0.23648648648648649,
+   "n_neg": 296
+  },
+  "heron": {
+   "auroc": 0.8105046343975284,
+   "fa_thr0": 0.4117647058823529,
+   "n_neg": 17
+  },
+  "CR": {
+   "auroc": 0.9996903670496692,
+   "fa_thr0": 0.0,
+   "n_neg": 153
+  },
+  "open_auroc_mean": 0.8683059222338677,
+  "detect_thr0": {
+   "D1": 0.5526315789473685,
+   "D2": 0.690677966101695,
+   "D3": 0.59251968503937,
+   "D4": 0.9055299539170507,
+   "D5": 0.9585406301824212,
+   "D6": 0.8086642599277978
+  }
+ },
+ "args": {
+  "arm": "NB_tap5",
+  "bank": "E:\\research\\openset_physics\\runs\\W16_baselines\\banks\\bank_NB.npz",
+  "seed": 31,
+  "steps": 4000,
+  "bs": 256
+ },
+ "train_s": 300,
+ "bank_sha256": "16df2e6a0e0ec5cd16cf14bb9be63f5a287ffb6ef7f4932d050dc7cd955fbe35",
+ "script_sha256": {
+  "w14_train.py": "bf6e4605ce65423aca8f4afb03edc3d67f073eb7582458661d1e51401b4b9e85",
+  "e3w8b_ablate.py": "6d247b8024df4b353eadc1e58373a1eaade993df1168ec4468df8eac367ae91d",
+  "e3w8_sim_rotor_detector.py": "c61be5360f39f45a32b96d6053ceb286e5c676c51101121e8658f18e7e0575dd",
+  "sim_saab.py": "5cbb778f7d3fd2d8e5b0a4e4a9418319b06aa7e98b81ca1df75494a176dd3683",
+  "train_e0b.py": "557c6a6257d294bcc073befc5fc184edfc97554059a71ef7e0efe4dbe12afe8a"
+ }
+}

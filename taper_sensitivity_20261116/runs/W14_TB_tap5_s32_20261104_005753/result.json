@@ -1,0 +1,83 @@
+{
+ "closed_sim_auroc": 0.9995825,
+ "segment": {
+  "drone_median_logit": -11.077378273010254,
+  "gull": {
+   "auroc": 0.5729941261129317,
+   "fa_thr0": 0.004518072289156626,
+   "n_neg": 7304
+  },
+  "human": {
+   "auroc": 0.9263046115309035,
+   "fa_thr0": 0.0,
+   "n_neg": 6028
+  },
+  "heron": {
+   "auroc": 0.4077793095101671,
+   "fa_thr0": 0.00516795865633075,
+   "n_neg": 387
+  },
+  "CR": {
+   "auroc": 0.9536132202411172,
+   "fa_thr0": 0.0,
+   "n_neg": 3280
+  },
+  "open_auroc_mean": 0.6356926823846675,
+  "detect_thr0": {
+   "D1": 0.04074555700043346,
+   "D2": 0.001151229722658294,
+   "D3": 0.005287896592244419,
+   "D4": 0.02244617498854787,
+   "D5": 0.015546183742661044,
+   "D6": 0.09471718249733191
+  }
+ },
+ "track20": {
+  "drone_median_logit": -10.615958213806152,
+  "gull": {
+   "auroc": 0.6035898763959906,
+   "fa_thr0": 0.0,
+   "n_neg": 342
+  },
+  "human": {
+   "auroc": 0.9880133093959047,
+   "fa_thr0": 0.0,
+   "n_neg": 296
+  },
+  "heron": {
+   "auroc": 0.347630298257305,
+   "fa_thr0": 0.0,
+   "n_neg": 17
+  },
+  "CR": {
+   "auroc": 0.9947743830339093,
+   "fa_thr0": 0.0,
+   "n_neg": 153
+  },
+  "open_auroc_mean": 0.6464111613497334,
+  "detect_thr0": {
+   "D1": 0.0,
+   "D2": 0.0,
+   "D3": 0.0,
+   "D4": 0.0,
+   "D5": 0.001658374792703151,
+   "D6": 0.0018050541516245488
+  }
+ },
+ "args": {
+  "arm": "TB_tap5",
+  "bank": "E:\\research\\openset_physics\\runs\\W16_baselines\\banks\\bank_TB.npz",
+  "seed": 32,
+  "steps": 4000,
+  "bs": 256
+ },
+ "train_s": 297,
+ "bank_sha256": "2f6d04d086ea3efafe5d333ea238f545f58f6a7a4c083cd62b01e5161601c0a1",
+ "script_sha256": {
+  "w14_train.py": "bf6e4605ce65423aca8f4afb03edc3d67f073eb7582458661d1e51401b4b9e85",
+  "e3w8b_ablate.py": "6d247b8024df4b353eadc1e58373a1eaade993df1168ec4468df8eac367ae91d",
+  "e3w8_sim_rotor_detector.py": "c61be5360f39f45a32b96d6053ceb286e5c676c51101121e8658f18e7e0575dd",
+  "sim_saab.py": "5cbb778f7d3fd2d8e5b0a4e4a9418319b06aa7e98b81ca1df75494a176dd3683",
+  "train_e0b.py": "557c6a6257d294bcc073befc5fc184edfc97554059a71ef7e0efe4dbe12afe8a"
+ }
+}

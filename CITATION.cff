@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the information below."
+title: "Simulator Discovery With Language-Model Agents for Open-Set Drone Detection in Millimeter-Wave Surveillance Radar"
+type: software
+authors:
+  - family-names: Fan
+    given-names: Shiji
+  - family-names: Albuquerque
+    given-names: Daniel
+  - family-names: Rouco
+    given-names: André
+  - family-names: Shen
+    given-names: Ming
+repository-code: "https://github.com/ShijiFan/DroneSimulatorDiscovery"
+license: MIT
+date-released: 2026-11-18
